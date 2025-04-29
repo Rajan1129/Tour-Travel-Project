@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="stylle.css">
+<script src="script.js"></script>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Travel</h1>
+
+            </div>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#book">Bookings</a> </li>
+                <li><a href="#package">Packages</a> </li>
+                <li><a href="#places">Best Places</a> </li>
+                <li><a href="#contact">Contact Us</a> </li>
+            </ul>
+            <div class="icons">
+                <i id="bar" class="fa-solid fa-bars"></i>
+                <i id="user" class="fa-solid fa-user"></i>
+
+            </div>
+        </nav>
+        <div class="main">
+            <img src="/backkkkkk.jpg" alt="back">
+            <div class="mainText">
+                <h2>Your Holidays Dream Is Here<br>
+                Lets Chill!!!</h2>
+                <button>Explore</button>
+            </div>
+        </div>
+        <div class="book" id="book">
+            <div class="head">
+                <h1>Book your <span>Dream Place</span> </h1>
+            </div>
+    <form action="save.php" method="post">
+            <div class="booking">
+                <img src="/tour-back.jpg">
+                <div class="form">
+                    <h2>Book Your Place Now</h2>
+                    <p>where you want to go</p>
+                    <div class="form">
+                    <input type="varchar" name="go" placeholder="Where you want to go" id="placeName"></div>
+                    <div class="form">
+                    <p>Members</p>
+                    <input type="varchar" name="members" placeholder="">
+                    <p>Journy Starting Date</p></div>
+                    <div class="form">
+                    <input type="date" name="start">
+                    <p>Journy Ending Date</p></div>
+                    <div class="form">
+                    <input type="date" name="end"></div>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+        <div class="pack" id="package">
+            <div class="head">
+                <h1>Best <span>Packages</span></h1>
+            </div>
+            <div class="packages">
+                <div class="card">
+                    <img src="/manali.jpg" alt="">
+                    <h3>Manali</h3>
+                    <p>1 Week Tour</p>
+                    <p>60,000/Only</p>
+                </div>
+                <div class="card">
+                    <img src="/gujrat.jpg" alt="">
+                    <h3>Gujrat</h3>
+                    <p>2 Week Tour</p>
+                    <p>120,000/Only</p>
+                </div>
+                <div class="card">
+                    <img src="/mumbai.webp" alt="">
+                    <h3>Mumbai</h3>
+                    <p>2 Week Tour</p>
+                    <p>200,000/Only</p>
+                </div>
+            </div>
+        </div>
+        <div class="best" id="places">
+            <div class="head">
+                <h1> Explore <span>Best Places</span></h1>
+            </div>
+            <div class="places">
+            <div class="PlaceCard">
+                <img src="/switzerr.jpg" alt="">
+                <h3>Switzerland</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/australia.jpg" alt="">
+                <h3>Australia</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/canada.jpeg" alt="">
+                <h3>Canada</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/Japan.jpg" alt="">
+                <h3>Japan</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/sydney.jpg" alt="">
+                <h3>Sydney</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/russia.png" alt="">
+                <h3>Russia</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/UK.jpg" alt="">
+                <h3>UK</h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+            <div class="PlaceCard">
+                <img src="/singaa.jpg" alt="">
+                <h3>Singapore </h3>
+                <p>1 Week Tour</p>
+                <p>500,000/ Only</p>
+            </div>
+        </div>
+    </div>
+    <div class="connect" id="contact">
+        <div class="head">
+            <h1>Contact <span>Us</span></h1>
+        </div>
+        <div class="contact">
+            <img src="/suppp.avif" alt="">
+            <div class="contactForm">
+                <p>Name</p>
+                <input type="text" placeholder="Enter your name" id="name">
+                <p>Email</p>
+                <input type="text" placeholder="Enter your Email" id="emaill">
+                <button id="con">Connect</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="text">
+            <h3>About Us</h3>
+            <p>Experience the vibrant culture and scenic beauty of<br> India. Plan your trip with Incredible India & explore <br>tourist destinations, cultural events, festivals</p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div class="text">
+            <h3>Tours</h3>
+            <p>Exchangable</p>
+            <p>Excellent Quality</p>
+            <p>Afforadable Price</p>
+            <p></p>
+        </div>
+        <div class="text">
+            <h3>Places</h3>
+            <p>All Over India</p>
+            <p>All Over World</p>
+            <p>Forest Tours</p>
+            <p>Sea Tours</p>
+        </div>
+        <div class="text">
+            <h3>Address</h3>
+            <p>99999999</p>
+            <p>Gagret Main</p>
+            <p>opposite Bus Stand</p>
+            <p>177205</p>
+        </div>
+    </div>
+    <div class="loginPage">
+        <input type="text" placeholder="Enter Username" id="email"><br>
+        <input type="text" placeholder="Enter Password" id="pass">
+        <button id="loginBtn">LogIn</button>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
